@@ -1,3 +1,29 @@
+/*
+hw1.css is the name of the file for week 1 assignment for Intro to CSS.
+*/
 body{
-background: #ffffff;
+    font-family: Georgia, serif, 'Times New Roman', Times;
+    font-size: 100%;
+}
+header{
+    background: #f00;
+}
+h1{
+    color: #800000;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    color: #0000ff;
+    text-transform: uppercase;
+}
+section{
+    background-color: #ffff00;
+}
+a{
+    color: #000;
+    background-color: #808080;
+}
+img{
+    display: none;
 }
