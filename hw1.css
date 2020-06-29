@@ -6,7 +6,8 @@ body{
     margin: 2%;
     padding: 10px;
     font-family: Georgia, serif, 'Times New Roman', Times;
-    font-size: 140%;
+    font-size: 180%;
+color: beige;
 }
 header{
     background-color: #ffffff;
@@ -32,5 +33,9 @@ border-radius: 5px;
 .left{
     display: inline-block;
     border: 6px solid #f00;
-    margin: 0 auto;
+    margin: 2px;
+    float: left;
+}
+p{
+    color: #ffffff;
 }
