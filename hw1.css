@@ -1,29 +1,36 @@
 /*
-hw1.css is the name of the file for week 1 assignment for Intro to CSS.
+this is assignment 2 for intro to CSS
 */
 body{
+    background: #000080;
+    margin: 2%;
+    padding: 10px;
     font-family: Georgia, serif, 'Times New Roman', Times;
-    font-size: 100%;
+    font-size: 140%;
 }
 header{
-    background: #f00;
+    background-color: #ffffff;
+    padding: 10px;
+    background-image: url(flywheel.jpg);
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
 }
-h1{
-    color: #800000;
-    text-align: center;
-    text-transform: uppercase;
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 2px;
+    padding: 5px;
+border-radius: 5px;
 }
-h2{
-    color: #0000ff;
-    text-transform: uppercase;
+.active{
+    color: #ff0;
+    font-weight: 200;
 }
-section{
-    background-color: #ffff00;
+.right{
+    display: inline-block;
 }
-a{
-    color: #000;
-    background-color: #808080;
-}
-img{
-    display: none;
+.left{
+    display: inline-block;
+    border: 6px solid #f00;
+    margin: 0 auto;
 }
