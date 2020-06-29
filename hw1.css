@@ -2,40 +2,60 @@
 this is assignment 2 for intro to CSS
 */
 body{
-    background: #000080;
+    background: #ffffff;
     margin: 2%;
     padding: 10px;
     font-family: Georgia, serif, 'Times New Roman', Times;
-    font-size: 180%;
-color: beige;
+    font-size: 340%;
+color: #000000;
 }
 header{
-    background-color: #ffffff;
-    padding: 10px;
-    background-image: url(flywheel.jpg);
-    background-position: 20px 20px;
+        background-image: url("flywheel.jpg");
+        background-position: 20px 10px;
     background-repeat: no-repeat;
+}
+nav{
+    background-color: (0, 255, 0, 0.3);
+        text-align: center;
 }
 nav a{
     display: inline-block;
+    text-align: left;
     text-decoration: none;
     margin: 2px;
     padding: 5px;
 border-radius: 5px;
 }
+
 .active{
     color: #ff0;
     font-weight: 200;
 }
 .right{
     display: inline-block;
+    width: 40%;
+    height: 60%;
+    clear: both;
 }
 .left{
     display: inline-block;
-    border: 6px solid #f00;
-    margin: 2px;
+    width: 9%;
+    height: 40%;
+        border: 2px solid #0f0;
+        background-color: #008000;
+    margin: 4%;
+    float: left;
+    padding: 6px 8px;
+}
+
+img{
+    display: inline-block;
+    width: 12cm;
+    height: 8cm;
+    margin: 10px 8px;
+    padding: 4px;
     float: left;
 }
-p{
-    color: #ffffff;
+h1{
+    text-align: center;
 }
