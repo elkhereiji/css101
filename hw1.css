@@ -25,10 +25,12 @@ nav a{
     background-color: rgba(218,234,213,0.60);
     color: #000;
     display: inline-block;
-    margin: 1%;
+    margin: 5%;
     border-radius: 5px;
     text-decoration: none;
-    padding: 10px;
+    padding: 15px;
+    height: 20px;
+    width: 120px;
 }
 /* 4. The link to the current page should be styled differently from the other links (using class = "active') */
 .active{
@@ -40,19 +42,28 @@ nav a{
     background: #808000;
     padding: 1%;    
     float: left;
-    width: 40%;
+    width: 20%;
 }
 .left img{
     border: 2px solid #000000;
-    width: 80%;
-    margin: 15%10% 30%10%;
+    width: 60%;
+    margin: 3% 20% 1% 20%;
 }
 /* 6. The sections should be next to each other, not one on top of the other. */ 
 .right{
     display: inline-block;
-    width: 58%;
+    width: 75%;
     padding-left: 2%;
 }
 h1{
     text-align: center;
+    text-transform: uppercase;
+    font-family: Georgia, serif, 'Times New Roman', Times;
+    font-size: 40px;
+    position: relative;
+   top: -20px; 
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
 }
