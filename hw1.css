@@ -19,7 +19,7 @@ header, footer{
 header{
     background-image: url("flywheel.jpg");
     background-repeat: no-repeat;
-    background-color: rgba(0, 255, 0, 0.8);
+    background-color: rgba(0, 255, 0, 0.3);
                     background-position: left;
         padding: 10px;
         text-align: center;
