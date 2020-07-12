@@ -1,18 +1,20 @@
 /*
-Homework Two: Advanced Selectors:
+Please check this code on Firefox. I didn't check it on Google Chrome.
+Homework Three and Two: Styling A Table and Advanced Selectors. 
 "You need to work on the body, the header, the h one, the links, and then I have three classes called active, left, and right, and finally, you're going to want to put those images back in that were in the left hand side of the page."
 */
 
-/* 1. The body should have padding and margin */
+/* 1. The body should have padding and margin (A2)*/
 body{
     margin: 1%;
     padding: 1%;
     font-size: 125%;
 }
+
 /* 2. The header should have a background color, background image (using a local image), and padding */
 header{
     background-color: rgba(0, 255, 0, 0.3);
-    background-image: url("flywheel.jpg");
+    background-image: url("../images/flywheel.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 1%;
@@ -66,4 +68,47 @@ h1{
 p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
+}
+
+/* 1) The table should be styled using at least four properties. */
+table{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    border-collapse: collapse; /* The border-collapse property sets whether the table borders should be collapsed into a single border */
+    line-height: 14px;
+    width: 80%;
+}
+
+/* 2) The table headings should have a border, background color, and at least one other property. */
+th{
+    background-color: #00f; /* blue */
+    color: #ffffff; /* white */
+    border: 2px solid #ffffff; 
+
+}
+
+/* The table elements < td > should be styled using at least four properties */
+td{
+background-color: #e0ffff; /* LightCyan*/
+color: #808080; /* Gray */
+border: solid 2px #ffffff; /* White */
+text-align: center;
+}
+table, th td{
+    margin-left: 3%;
+    padding: 1%;
+}
+/* Style the table so that the text in the first column is left-aligned and the text in the other two columns is centered */
+tr th:first-child, tr td:first-child{
+    text-align: left;
+}
+/* Set the opacity of the table rows to a value between .6 and .8 (make sure it is still visible) */
+tr td{
+    opacity: 0.8;
+}
+/* Change the opacity of a row when it is hovered over */
+tr td:hover, trth:hover{
+    opacity: 1.5;
+    font-size: 16px;
 }
