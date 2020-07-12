@@ -14,7 +14,7 @@ body{
 /* 2. The header should have a background color, background image (using a local image), and padding */
 header{
     background-color: rgba(0, 255, 0, 0.3);
-    background-image: url("../images/flywheel.jpg");
+    background-image: url("flywheel.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 1%;
@@ -73,10 +73,9 @@ p{
 /* 1) The table should be styled using at least four properties. */
 table{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 80%;
     font-weight: bold;
     border-collapse: collapse; /* The border-collapse property sets whether the table borders should be collapsed into a single border */
-    line-height: 14px;
     width: 80%;
 }
 
@@ -110,5 +109,5 @@ tr td{
 /* Change the opacity of a row when it is hovered over */
 tr td:hover, trth:hover{
     opacity: 1.5;
-    font-size: 16px;
+    font-size: 100%;
 }
