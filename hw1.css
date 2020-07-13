@@ -71,12 +71,13 @@ p{
 }
 
 /* 1) The table should be styled using at least four properties. */
-table{
+        table{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 80%;
     font-weight: bold;
     border-collapse: collapse; /* The border-collapse property sets whether the table borders should be collapsed into a single border */
-    width: 80%;
+//    width: 80%; //
+    width: 800px;
 }
 
 /* 2) The table headings should have a border, background color, and at least one other property. */
@@ -84,19 +85,18 @@ th{
     background-color: #00f; /* blue */
     color: #ffffff; /* white */
     border: 2px solid #ffffff; 
-
 }
 
 /* The table elements < td > should be styled using at least four properties */
 td{
-background-color: #e0ffff; /* LightCyan*/
-color: #808080; /* Gray */
-border: solid 2px #ffffff; /* White */
-text-align: center;
+    background-color: #e0ffff; /* LightCyan*/
+    color: #808080; /* Gray */
+    border: solid 2px #ffffff; /* White */
+    text-align: center;
 }
 table, th td{
     margin-left: 3%;
-    padding: 1%;
+    padding: 2%;
 }
 /* Style the table so that the text in the first column is left-aligned and the text in the other two columns is centered */
 tr th:first-child, tr td:first-child{
@@ -109,5 +109,5 @@ tr td{
 /* Change the opacity of a row when it is hovered over */
 tr td:hover, trth:hover{
     opacity: 1.5;
-    font-size: 100%;
+     font-size: 150%;
 }
